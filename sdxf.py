@@ -163,8 +163,7 @@ ALIGNED, MIDDLE, FIT = 3, 4, 5  # if vertical alignment = 0
 BASELINE, BOTTOM, MIDDLE, TOP = 0, 1, 2, 3
 
 ####3) Classes
-#---entitities
-
+#---entities
 
 class Arc(_Entity):
     """Arc, angles in degrees."""
