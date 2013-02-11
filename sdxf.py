@@ -549,7 +549,7 @@ def ViewByWindow(name, leftBottom=(0, 0), rightTop=(1, 1), **options):
 class Drawing(_Collection):
     """Dxf drawing. Use append or any other list methods to add objects."""
     def __init__(self, insbase=(0.0, 0.0, 0.0), extmin=(0.0, 0.0),
-            extmax=(0.0, 0.0), layers=[Layer()], linetypes=[LineType()],
+            extmax=(0.0, 0.0), layers=[], linetypes=[LineType()],
             styles=[Style()], blocks=[], views=[], entities=None,
             fileName='test.dxf'):
         # TODO: replace list with None,arial
